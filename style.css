@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.orange{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size:35px;
+}
+section{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:80%;
+}
+.link-btn{
+    text-decoration: none;
+    background-color: rgba(150, 102, 14, 0.644);
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(218, 165, 32, 0.589);
+    font-weight: 400;
+}
+.link-btn:hover{
+    background-color: rgba(0, 255, 255, 0.384);
+}
+.top-banner{
+    background-image: url(./image/top-banner.png);
+    background-repeat: no-repeat;
+}
