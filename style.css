@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 .orange{
@@ -11,10 +11,7 @@ h1{
 h2{
     font-size: 40px;
 }
-h3{
-    font-size:35px;
-}
-section{
+.exploering-div{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,6 +29,7 @@ section{
     border-radius: 5px;
     border: 1px solid rgba(218, 165, 32, 0.589);
     font-weight: 400;
+    transition: 2s;
 }
 .link-btn:hover{
     background-color: rgba(0, 255, 255, 0.384);
@@ -39,4 +37,45 @@ section{
 .top-banner{
     background-image: url(./image/top-banner.png);
     background-repeat: no-repeat;
+    
+}
+.bottm-banner{
+    background-image: url(./image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+
+}
+/*--------------------------------------*/
+.item-continar{
+    width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 15px;
+   padding-right: 10px;
+   box-shadow: 10px 30px 40px gray;
+   border-radius: 10px;
+}
+.item-continar p{
+    line-height: 22px;
+}
+.exprience-area{
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-broder{
+    border-left: 7px solid;
+    border-image: linear-gradient(green, rgb(255, 0, 34));
+    border-image-slice: 1;
+
+}
+#baby-broder{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, gray);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: black;
 }
